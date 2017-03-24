@@ -15,6 +15,15 @@
 		713E0BDA1E5BD231004B679D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 713E0BD81E5BD231004B679D /* LaunchScreen.storyboard */; };
 		713E0BE51E5BD231004B679D /* micLevelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 713E0BE41E5BD231004B679D /* micLevelTests.m */; };
 		713E0BF01E5BD231004B679D /* micLevelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 713E0BEF1E5BD231004B679D /* micLevelUITests.m */; };
+		713E0C081E5BEF89004B679D /* perRun1.png in Resources */ = {isa = PBXBuildFile; fileRef = 713E0C001E5BEF89004B679D /* perRun1.png */; };
+		713E0C091E5BEF89004B679D /* perRun2.png in Resources */ = {isa = PBXBuildFile; fileRef = 713E0C011E5BEF89004B679D /* perRun2.png */; };
+		713E0C0A1E5BEF89004B679D /* perRun3.png in Resources */ = {isa = PBXBuildFile; fileRef = 713E0C021E5BEF89004B679D /* perRun3.png */; };
+		713E0C0B1E5BEF89004B679D /* perRun4.png in Resources */ = {isa = PBXBuildFile; fileRef = 713E0C031E5BEF89004B679D /* perRun4.png */; };
+		713E0C0C1E5BEF89004B679D /* perRun5.png in Resources */ = {isa = PBXBuildFile; fileRef = 713E0C041E5BEF89004B679D /* perRun5.png */; };
+		713E0C0D1E5BEF89004B679D /* perRun6.png in Resources */ = {isa = PBXBuildFile; fileRef = 713E0C051E5BEF89004B679D /* perRun6.png */; };
+		713E0C0E1E5BEF89004B679D /* perRun7.png in Resources */ = {isa = PBXBuildFile; fileRef = 713E0C061E5BEF89004B679D /* perRun7.png */; };
+		713E0C0F1E5BEF89004B679D /* perRun8.png in Resources */ = {isa = PBXBuildFile; fileRef = 713E0C071E5BEF89004B679D /* perRun8.png */; };
+		713E0C181E5C3C92004B679D /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 713E0C171E5C3C92004B679D /* GameViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,16 @@
 		713E0BEB1E5BD231004B679D /* micLevelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = micLevelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		713E0BEF1E5BD231004B679D /* micLevelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = micLevelUITests.m; sourceTree = "<group>"; };
 		713E0BF11E5BD231004B679D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		713E0C001E5BEF89004B679D /* perRun1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = perRun1.png; sourceTree = "<group>"; };
+		713E0C011E5BEF89004B679D /* perRun2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = perRun2.png; sourceTree = "<group>"; };
+		713E0C021E5BEF89004B679D /* perRun3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = perRun3.png; sourceTree = "<group>"; };
+		713E0C031E5BEF89004B679D /* perRun4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = perRun4.png; sourceTree = "<group>"; };
+		713E0C041E5BEF89004B679D /* perRun5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = perRun5.png; sourceTree = "<group>"; };
+		713E0C051E5BEF89004B679D /* perRun6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = perRun6.png; sourceTree = "<group>"; };
+		713E0C061E5BEF89004B679D /* perRun7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = perRun7.png; sourceTree = "<group>"; };
+		713E0C071E5BEF89004B679D /* perRun8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = perRun8.png; sourceTree = "<group>"; };
+		713E0C161E5C3C92004B679D /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		713E0C171E5C3C92004B679D /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +120,13 @@
 		713E0BC91E5BD231004B679D /* micLevel */ = {
 			isa = PBXGroup;
 			children = (
+				713E0BFE1E5BEF89004B679D /* Resource */,
 				713E0BCD1E5BD231004B679D /* AppDelegate.h */,
 				713E0BCE1E5BD231004B679D /* AppDelegate.m */,
 				713E0BD01E5BD231004B679D /* ViewController.h */,
 				713E0BD11E5BD231004B679D /* ViewController.m */,
+				713E0C161E5C3C92004B679D /* GameViewController.h */,
+				713E0C171E5C3C92004B679D /* GameViewController.m */,
 				713E0BD31E5BD231004B679D /* Main.storyboard */,
 				713E0BD61E5BD231004B679D /* Assets.xcassets */,
 				713E0BD81E5BD231004B679D /* LaunchScreen.storyboard */,
@@ -138,6 +160,29 @@
 				713E0BF11E5BD231004B679D /* Info.plist */,
 			);
 			path = micLevelUITests;
+			sourceTree = "<group>";
+		};
+		713E0BFE1E5BEF89004B679D /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				713E0BFF1E5BEF89004B679D /* player */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		713E0BFF1E5BEF89004B679D /* player */ = {
+			isa = PBXGroup;
+			children = (
+				713E0C001E5BEF89004B679D /* perRun1.png */,
+				713E0C011E5BEF89004B679D /* perRun2.png */,
+				713E0C021E5BEF89004B679D /* perRun3.png */,
+				713E0C031E5BEF89004B679D /* perRun4.png */,
+				713E0C041E5BEF89004B679D /* perRun5.png */,
+				713E0C051E5BEF89004B679D /* perRun6.png */,
+				713E0C061E5BEF89004B679D /* perRun7.png */,
+				713E0C071E5BEF89004B679D /* perRun8.png */,
+			);
+			path = player;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,7 +252,8 @@
 				TargetAttributes = {
 					713E0BC61E5BD231004B679D = {
 						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = N3W4L6VUP5;
+						ProvisioningStyle = Manual;
 					};
 					713E0BDF1E5BD231004B679D = {
 						CreatedOnToolsVersion = 8.0;
@@ -246,9 +292,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				713E0C091E5BEF89004B679D /* perRun2.png in Resources */,
+				713E0C0A1E5BEF89004B679D /* perRun3.png in Resources */,
 				713E0BDA1E5BD231004B679D /* LaunchScreen.storyboard in Resources */,
 				713E0BD71E5BD231004B679D /* Assets.xcassets in Resources */,
 				713E0BD51E5BD231004B679D /* Main.storyboard in Resources */,
+				713E0C0E1E5BEF89004B679D /* perRun7.png in Resources */,
+				713E0C081E5BEF89004B679D /* perRun1.png in Resources */,
+				713E0C0F1E5BEF89004B679D /* perRun8.png in Resources */,
+				713E0C0B1E5BEF89004B679D /* perRun4.png in Resources */,
+				713E0C0D1E5BEF89004B679D /* perRun6.png in Resources */,
+				713E0C0C1E5BEF89004B679D /* perRun5.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +327,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				713E0C181E5C3C92004B679D /* GameViewController.m in Sources */,
 				713E0BD21E5BD231004B679D /* ViewController.m in Sources */,
 				713E0BCF1E5BD231004B679D /* AppDelegate.m in Sources */,
 				713E0BCC1E5BD231004B679D /* main.m in Sources */,
@@ -370,7 +425,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -412,7 +467,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -424,10 +479,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jie Shi (J3KLRE8Y3J)";
+				DEVELOPMENT_TEAM = N3W4L6VUP5;
 				INFOPLIST_FILE = micLevel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = nanoCramer.micLevel;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iqiyi.onlinemall;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a0821f66-455f-4c90-80df-01c819609c71";
+				PROVISIONING_PROFILE_SPECIFIER = IqiyiOnlineMall;
 			};
 			name = Debug;
 		};
@@ -435,10 +494,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jie Shi (J3KLRE8Y3J)";
+				DEVELOPMENT_TEAM = N3W4L6VUP5;
 				INFOPLIST_FILE = micLevel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = nanoCramer.micLevel;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iqiyi.onlinemall;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a0821f66-455f-4c90-80df-01c819609c71";
+				PROVISIONING_PROFILE_SPECIFIER = IqiyiOnlineMall;
 			};
 			name = Release;
 		};
@@ -507,6 +570,7 @@
 				713E0BF61E5BD231004B679D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		713E0BF71E5BD231004B679D /* Build configuration list for PBXNativeTarget "micLevelTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +579,7 @@
 				713E0BF91E5BD231004B679D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		713E0BFA1E5BD231004B679D /* Build configuration list for PBXNativeTarget "micLevelUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +588,7 @@
 				713E0BFC1E5BD231004B679D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
